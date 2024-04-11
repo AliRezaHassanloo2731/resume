@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer CV</title>
+    <!-- favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/222a859c2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="background.css" />
+    <!-- javascript -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <img src="img/picture1.jpg" alt="me" />
+        <h1>AliReza Hassanloo</h1>
+
+        <div class="contact">
+          <address>trellebogade1,11-tv-2630 højtaastrup 2630 Denmark</address>
+          <h4>Email: <span>reza1632731@gmail.com</span></h4>
+          <h4>Phone: <span>+4591430426</span></h4>
+        </div>
+      </div>
+      <a href="img/developer CV.pdf" class="btn" download
+        >Download pdf<i class="fa-solid fa-download"></i
+      ></a>
+
+      <!-- menu -->
+      <navbar class="nav">
+        <!-- haburger menu start -->
+        <label class="hamburger-menu">
+          <input type="checkbox" />
+        </label>
+        <!-- haburger menu end -->
+
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#history">Employment History</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+         
+      </navbar>
+    </header>
+
+    <main>
+      <section class="about" id="about" class="about">
+        <h2>Profile</h2>
+        <p>
+          15 years of experience in banking industry: Executed customer
+          transactions, including deposits, withdrawals, money orders, ATM and
+          checks. Experience of working in the banking facilities for two years
+          including receiving form applications, document collection and
+          documents verification process (credit score, credit history, income
+          details, employment status and KYC details) Experience of working for
+          credits department for 2 years including collection process such as
+          sending dunning letters to customers or calling customers. 11 years of
+          experience in Forex and stock market operation, professional in
+          technical analysis using pattern, Elliot waves, familiarity with
+          fundamental concepts in financial markets such as GDP, NFP, CPR etc.
+          Front End Developer: Entry level
+        </p>
+      </section>
+      <section class="history" id="history">
+        <h2>Employment History</h2>
+        <h6>Bank officer at Iranian Bank (Maskan), Zanjan and Ardabil</h6>
+        <p>
+          <span>2007-2017: cashier position in Maskan bank:</span>
+          I had been working as a cashier in Maskan bank for 10 years. During
+          that period, I was responsible for performing various duties such as
+          opening and closing accounts, deposits, withdrawals, money orders and
+          checks. In addition, I used to open internet bank accounts and mobile
+          bank. I had to educate Costumers how to work with internet bank site
+          and mobile bank applications as well.
+        </p>
+        <p>
+          <span>2017-2020: working in banking facilities section</span>
+          At 2017, I changed my position and I started working in banking
+          facilities section. In this section, apart from dealing with bank
+          customers, I was responsible for some other tasks such as reviewing
+          and analyzing loan procedures, performing semi-annual account credit,
+          limit reviews and credit increase review requests from financial
+          service. I also need to carefully analyze documents and inform client
+          of missing items.
+        </p>
+        <p>
+          <span>2020-2022: working in collection debt process section</span>In
+          this 2-year period, I took the responsibility for collecting bank
+          debts which were overdue.
+        </p>
+      </section>
+      <section class="skills survey" id="skills">
+        <h2>Pre interview form</h2>
+    <p>Please fill out this form with the required information</p>
+        <!-- form -->
+        <form action="" id="survey-form">
+          
+          <fieldset>
+            <!-- name -->
+            <label for="name" id="name-label"
+              >Fullname: 
+              <input type="text" id="name" placeholder="Entet your full name" required />
+            </label>
+            <!-- email -->
+            <label for="email" id="email-label"
+              >Email: 
+              <input
+                type="email"
+                id="email"
+                pattern=".+@example.com"
+                value="email"
+                placeholder="Entet your email"
+                required
+              />
+            </label>
+            <!-- number (AGE) -->
+            <label for="number" id="number-label"
+              >Age(optional):     
+              <input type="number" id="number" placeholder="Age" min="1" max="3" />
+            </label>
+          </fieldset>
+          <!-- second field set -->
+          
+    <fieldset>
+      <label for="full-time" class="form__radio-labels">
+              <input class="form__radio-input" id="full-time" type="radio" name="levels" value="full-time" checked>
+              <span class="form__radio-button"></span>
+              Full time </label>
+
+              <label for="part-time" class="form__radio-labels">
+              <input class="form__radio-input" id="part-time" type="radio" name="levels" value="part-time">
+              <span class="form__radio-button"></span>
+              Part time</label>
+
+              <label for="entry-level" class="form__radio-labels">
+              <input class="form__radio-input" id="entry-level" type="radio" name="levels" value="entry-level">
+              <span class="form__radio-button"></span>
+              Entry level</label>
+            
+              <label for="entership" class="form__radio-labels">
+              <input class="form__radio-input" id="entership" type="radio" name="levels" value="entership">
+              <span class="form__radio-button"></span>
+              Entership</label>
+            
+            <legend>
+              Which option best describes your job?
+            </legend>
+          </fieldset>
+          <!-- third fieldset -->
+          <fieldset>
+            <!-- select -->
+            <label for=""
+              >Which feature of hard skill do you give the most priority in choosing a colleague?
+              <select name="" id="dropdown">
+                <option value="">Select hard skills</option>
+                <option value=""> HTML, CSS, JavaScript and CSS preprocessors (Sass/LESS)</option>
+                <option value="">
+                  JavaScript frameworks (Angular, Ember, React,...) and JavaScript libraries</option>
+                <option value="">
+                  developer tools and version control</option>
+                
+                <option value="">
+                  All</option>
+              </select>
+            </label>
+            <br>
+            <label for=""
+            >Which feature of soft skill do you give the most priority in choosing a colleague?
+            <select name="" id="">
+              <option value="">Select an option</option>
+              <option value="">problem-solving</option>
+              <option value="">creativity and willingness to learn</option>
+              <option value="">Curious and  teamwork</option>
+              <option value="">All </option>
+            </select>
+          </label>
+          <br>
+          <label for=""
+              >What would you like to see improved? (Check all that apply)
+              <input type="checkbox" value="react" name="" id="" />React
+              <input type="checkbox" value="angular" name="" id="" />Angular
+              <input type="checkbox" value="vue" name="" id="" />Vue
+            </label>
+           <p> If you choosed "all" in both question, you would looking for me😉 </p>
+          </fieldset>
+          
+          <!-- forth field set -->
+          <fieldset>
+            
+          </fieldset>
+          <!-- last fieldset -->
+          <label for=""
+              >Any comments or suggestions?
+              <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="submit" id="submit" class="submit-btn"/>
+        </form> 
+        <h5>Here you can see my skils: </h5>
+        <div class="skill">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3"></i>
+          <i class="fa-brands fa-node-js"></i>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-vuejs"></i>
+          <i class="fa-brands fa-react"></i>
+        </div>
+      </section>
+      <section class="education" id="education">
+       <div class="tabriz">
+        <a href="https://tabrizu.ac.ir/en" target="_blank">
+          <img src="img/tabriz-university-2.jpg" alt="tabriz-university-2">
+        </a>
+        <h3>bachelor Degree/ Applied Mathematics, Tabriz University, Tabriz</h3>
+        <p>CTOBER 1999 — FEBRUARY 2004</p>
+       </div>
+
+        <div class="ghazvin">
+
+          <a href="https://qazvin.iau.ir/fa" target="_blank"><img src="img/ghazvin-2.jpg" alt="ghazvin-univercity" width="250"></a>
+          <h3>Master's Degree/Industrial engineering_ system & productivity management, Islamic Azad University Qazvin Branch, Qazvin</h3>
+          <p>CTOBER 2012 — JANUARY 2017</p>
+        </div>
+       
+      </section>
+
+        
+      </section>
+    </main>
+  </body>
+</html>
